@@ -6,6 +6,7 @@ services:
     container_name: laravel-mirai
     ports:
       - "8000:8000"
+      - "5173:5173"
     volumes:
       - ./src:/var/www
     working_dir: /var/www/
